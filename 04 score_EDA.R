@@ -1,6 +1,6 @@
 library(tidyverse)
 library(here)
-tt2 = read_csv(here("train_test_set2.csv"))
+tt2 = read_csv(here("/data/train_test_set2.csv"))
 predictors <- c("CODE_GENDER", "FLAG_OWN_CAR", "FLAG_OWN_REALTY", "CNT_CHILDREN",
                 "AMT_INCOME_TOTAL", "NAME_INCOME_TYPE", "NAME_EDUCATION_TYPE",
                 "NAME_FAMILY_STATUS", "NAME_HOUSING_TYPE", "DAYS_BIRTH", 
