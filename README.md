@@ -7,7 +7,7 @@ The main directories that contain data read into the scripts and notebooks for t
 - *The remaining directories are outputs produced by Jupyter Notebooks as described below.*
 
 ## Scripts and Notebooks
-The main scripts and notebooks for this project are almost all numbered:
+The main scripts and notebooks for this project are mostly numbered in the order in which they were written and used:
 - **00 EDA.R** – An R script where the initial data analysis occurred of the two original datasets, which are ***/data/application_record.csv*** and ***/data/credit_record.csv***.
 - **01 score_brainstorming.R** – An R script brainstorming different methods for computing the reliability score based on payment status history.
 - **02 train_test_set.R** – Encodes the payment STATUS variable as an integer vector rather than a character vector, calculates two different versions of the reliability score, produces a new version of the dataset containing these scores and writes it to ***/data/train_test_set.csv***.
@@ -19,3 +19,9 @@ The main scripts and notebooks for this project are almost all numbered:
 - **08 sklearn_DecisionTreeRegressor.ipynb** - 
 - **09 predictive_clustering_example_use.ipynb** – 
 - **credit_decision_tree.py** – Contains definitions pertaining to the custom decision tree class used for predictive clustering in the ***predictive_clustering_tree.ipynb*** and ***zeroless_predictive_clustering_tree.ipynb*** Jupyter Notebooks.
+
+## Other Documents
+- EagerMeston_FinalPaper.docx - 
+- EagerMeston_FinalPaper.pdf - 
+- EagerMeston_FinalPresentation.pptx - 
+- EagerMeston_FinalPresentation.mp4 - 
