@@ -3,7 +3,7 @@
 ## Directories
 - **/data** – contains the datasets for use in this project.  Some could only be uploaded to GitHub as zip files because of their size, so those ones will need to be manually extracted in the data directory before the scripts and Jupyter Notebooks that use them will run properly.
 - **/model_evaluation** – contains key pandas.DataFrame objects and lists of predictions related to the model building and testing phases.  The two zip files (***cred_tree.zip*** and ***cred_tree_no_zeros.zip***) are compressed .pkl files of the fully trained predictive clustering trees from ***predictive_clustering_tree.ipynb*** and ***zeroless_predictive_clustering_tree.ipynb***.  They can be loaded into a Python session using the **dill** library.  This can save a lot of time, as the first tree took over 4.5 hours to train.
-- *The remaining directories are outputs produced by Jupyter Notebooks as described below.*
+- *The remaining directories are outputs produced by Jupyter Notebooks described below.*
 
 ## Scripts and Notebooks
 - **00 EDA.R** – An R script where the initial data analysis occurred of the two original datasets, which are ***/data/application_record.csv*** and ***/data/credit_record.csv***.
@@ -19,7 +19,6 @@
 - **credit_decision_tree.py** – Contains definitions pertaining to the custom decision tree class used for predictive clustering in the ***predictive_clustering_tree.ipynb*** and ***zeroless_predictive_clustering_tree.ipynb*** Jupyter Notebooks.
 
 ## Other Documents
-- EagerMeston_FinalPaper.docx - 
-- EagerMeston_FinalPaper.pdf - 
-- EagerMeston_FinalPresentation.pptx - 
-- EagerMeston_FinalPresentation.mp4 - 
+- **EagerMeston_FinalPaper.docx** - A Word Document containing an executive summary and technical overview of the project results.  Discusses the predictive clustering trees in detail.
+- **EagerMeston_FinalPaper.pdf** - A PDF version of ***EagerMeston_FinalPaper.docx***.
+- **EagerMeston_FinalPresentation.pptx** - A PowerPoint presentation with audio narration that explains the process we went through for this project and the results of our analysis.  It takes 18 minutes and 53 seconds to view.
