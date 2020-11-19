@@ -10,7 +10,7 @@
 - **01 score_brainstorming.R** – An R script brainstorming different methods for computing the reliability score based on payment status history.
 - **02 train_test_set.R** – Encodes the payment STATUS variable as an integer vector rather than a character vector, calculates two different versions of the reliability score, produces a new version of the dataset containing these scores and writes it to ***/data/train_test_set.csv***.
 - **03 train_test_set2.R** – Computes 10 versions of the reliability score, produces a new version of the dataset containing them, and writes it to ***/data/train_test_set2.csv***.
-- **04 numeric_score_regression.ipynb** - 
+- **04 numeric_score_regression.ipynb** - Fits linear regression and decision tree regression models to the 10 versions of the numeric score using the statsmodels formula api and the DecisionTreeRegressork from sklearn.
 - **05 predictive_clustering_tree.ipynb** - 
 - **06 zeroless_predictive_predictive_clustering_tree.ipynb** - 
 - **07 leaf_node_EDA.ipynb** - 
