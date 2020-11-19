@@ -3,7 +3,7 @@
 ## Directories
 - **/data** – contains the datasets for use in this project.  Some could only be uploaded to GitHub as zip files because of their size, so those ones will need to be manually extracted in the data directory before the scripts and Jupyter Notebooks that use them will run properly.
 - **/model_evaluation** – contains key pandas.DataFrame objects and lists of predictions related to the model building and testing phases.  The two zip files (***cred_tree.zip*** and ***cred_tree_no_zeros.zip***) are compressed .pkl files of the fully trained predictive clustering trees from ***predictive_clustering_tree.ipynb*** and ***zeroless_predictive_clustering_tree.ipynb***.  They can be loaded into a Python session using the **dill** library.  This can save a lot of time, as the first tree took over 4.5 hours to train.
-- *The remaining directories are outputs produced by Jupyter Notebooks described below.*
+- *The remaining directories are outputs produced by the Jupyter Notebooks described below.*
 
 ## Scripts and Notebooks
 - **00 EDA.R** – An R script where the initial data analysis occurred of the two original datasets, which are ***/data/application_record.csv*** and ***/data/credit_record.csv***.
